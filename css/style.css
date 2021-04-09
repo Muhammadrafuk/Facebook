@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body{
+    margin: 0%;
+    background-color: rgb(232, 234, 235);
+    font-family: 'Poppins', sans-serif;
+}
+.inlineContent{
+    display: flex;
+    margin-top: 13%;
+}
+.content1{
+    position: relative;
+    left: 15%;
+}
+.content1 div img{
+    width: 35%;
+    margin: 0%;
+    position: relative;
+    right: 4%;
+
+}
+.content1 p{
+    margin: 0%;
+    font-size: 29px;
+    width: 50%;
+}
+
+
+
+
+.content2{
+    position: relative;
+    right: 16%;
+}
+.content{
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+}
+hr{
+    width: 80%;
+}
+.content2 input{
+    width: 80%;
+    height: 45px;
+    margin: 7px 40px;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: 0.5px solid black;
+    margin-right: 7px;
+}
+.content2 button{
+    color: white;
+    font-size: 30px;
+    padding: 5px 34%;
+    background-color: rgb(28, 103, 241);
+    margin-left: 40px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: none;
+}
+.content2 button:hover{
+    background-color: rgb(24, 94, 175);
+}
+.content2 a{
+    color: rgb(28, 103, 241);
+    text-decoration: none;
+    margin-left: 36%;
+}
+.content2 a:hover{
+    text-decoration: underline;
+}
+.content2 .button{
+    background-color: rgb(16, 190, 16);
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-left: 23%;
+}
+.content2 .button:hover{
+    background-color: rgb(26, 165, 26);
+}
+.content2 h4{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.content2 .b{
+    color: black;
+    margin-left: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA */
+
+
+
+
+
+
+
+
+@media (max-width:1352px) {
+    .content button{
+        padding: 5px 33%;
+    }
+}
+
+@media (max-width:1208px){
+    .content button{
+        padding: 5px 32%;
+    }
+}
+
+@media (max-width:1102px){
+    .inlineContent{
+        flex-direction: column;
+    }
+    .content2{
+        margin-top: 40px;
+        margin-right: 0px;
+        margin-left: 550px;
+    }
+    .content1{
+        margin-left: 220px;
+    }
+    .content1 p{
+        width: 60%;
+    }
+    .button{
+        margin-left: 400px;
+    }
+}
